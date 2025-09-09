@@ -1,0 +1,73 @@
+@import "tailwindcss";
+.Inter-regular {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.Inter-medium {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+}
+.Inter-bold {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.Inter-extrabold {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+@media (min-width: 1024px) {
+  .heading-lg {
+    line-height: 4.5rem;
+  }
+}
+@media (min-width: 1024px) {
+  .heading-lg2 {
+    line-height: 2rem;
+  }
+}
+
+/* Main Buttons */
+/* Main Buttons */
+
+
+
+.flex-btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.outer-cont-btn {
+  padding: 12px 20px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  position: relative;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  
+}
+.outer-cont-btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  border-radius: 12px;
+  filter: blur(0);
+  z-index: -1;
+  transition: all 0.3s ease;
+}
+.outer-cont-btn:hover::before {
+  filter: blur(15px);
+}
+.outer-cont-btn:active::before {
+  filter: blur(5px);
+  transform: translateY(1px);
+}
+
+
+@config "../../tailwind.config.js"
