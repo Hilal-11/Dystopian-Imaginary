@@ -1,6 +1,7 @@
 import { Link } from "@heroui/link";
 
 import { Navbar } from "@/components/navbar";
+import Footer from "@/components/Footer";
 
 export default function DefaultLayout({
   children,
@@ -13,6 +14,7 @@ export default function DefaultLayout({
       <main className="container mx-auto max-w-7xl px-6 flex-grow pt-16">
         {children}
       </main>
+      <Footer />
     </div>
   );
 }
