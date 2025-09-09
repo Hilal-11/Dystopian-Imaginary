@@ -4,6 +4,8 @@ import { motion } from 'motion/react'
 import { HiOutlineArrowSmRight } from "react-icons/hi";
 import logoImg from '../../dystopLogo.png' 
 import ForWho from "@/components/ForWho";
+import FAQ from "@/components/FAQ";
+import PremiumAndSignUp from "@/components/PremiumAndSignUp";
   const descriptionText =
   "Dystopian transforms imagination into stunning visuals. From futuristic cities to surreal landscapes, generate extreme sci-fi images powered by GenAI and enhanced by artists. Whether for storytelling, design, or inspiration, bring impossible worlds to life with limitless creativity.";
 
@@ -40,7 +42,7 @@ export default function IndexPage() {
         <div className="absolute -bottom-10 left-0 w-full h-[120px] bg-neutral-100 dark:bg-neutral-950 rounded-full  blur-2xl"></div>
 
         <div className="absolute -left-10 w-[70px] lg:w-[120px] h-full bg-neutral-100 dark:bg-neutral-950 rounded-full blur-2xl"></div>
-        <div className="absolute -right-10 w-[70px] lg:w-[120px] h-full bg-neutral-100 dark:bg-neutral-950 rounded-full blur-2xl"></div>
+        <div className="absolute right-0 w-[70px] lg:w-[120px] h-full bg-neutral-100 dark:bg-neutral-950 rounded-full blur-2xl"></div>
 
         
       <br /><br />
@@ -121,6 +123,12 @@ export default function IndexPage() {
       <br /><br /><br />
       <div>
         <ForWho />
+      </div>
+      <div>
+        <FAQ />
+      </div>
+      <div>
+        <PremiumAndSignUp />
       </div>
     </DefaultLayout>
   );
