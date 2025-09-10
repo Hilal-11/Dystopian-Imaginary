@@ -22,15 +22,15 @@ export const Navbar = () => {
   return (
     <HeroUINavbar maxWidth="2xl" className="fixed z-50">
       <NavbarContent className="basis-1/5 sm:basis-full" justify="start">
-          <div onClick={() => navigate('/')} className="flex items-start justify-center">
+          <div onClick={() => navigate('/')} className="flex items-end justify-center">
             <img className="w-[48px] relative lg:w-[55px]" src={logo} alt="error" />
-            <h1 className="hidden lg:block text-md Inter-medium z-50 relative -left-3 leading-tight bg-gradient-to-r from-red-500 to-orange-500 text-transparent bg-clip-text"><span className="bg-gradient-to-r from-red-500 to-orange-500 text-transparent bg-clip-text text-[12px] relative top-2 left-2 text-center">Imaginary</span><br /> dystopian</h1>
+            <h1 className="hidden lg:block text-md Inter-medium z-50 relative -left-3 leading-tight bg-gradient-to-r from-red-500 to-orange-500 text-transparent bg-clip-text">dystopian</h1>
           </div>
         <div className="hidden lg:flex gap-6 px-20 justify-start items-end Inter-medium z-50 relative top-1 left-2 ">
           {siteConfig.navItems.map((item) => (
             <NavLink to={item.href} key={item.href} style={({ isActive }) => ({
               color: isActive ? '#F97316' : '',
-              fontWeight: isActive ? '600' : '',
+              fontWeight: isActive ? '400' : '',
             })}>
               <NavbarItem className="text-md flex items-center justify-center gap-2 cursor-pointer" key={item.href}>
                 <item.icon/>
@@ -71,7 +71,7 @@ export const Navbar = () => {
           {siteConfig.navMenuItems.map((item, index) => (
             <NavLink to={item.href} key={item.href} style={({ isActive }) => ({
               color: isActive ? '#F97316' : '',
-              fontWeight: isActive ? '600' : '',
+              fontWeight: isActive ? '400' : '',
             })}>
             <NavbarMenuItem className="flex items-center justify-start gap-2" key={`${item}-${index}`}>
                 <item.icon></item.icon>
