@@ -14,7 +14,7 @@ function ForWho() {
                 <div className='pb-5 cursor-pointer w-full md:w-[360px] h-auto bg-white dark:bg-neutral-900 rounded-2xl hover:border hover:border-orange-600 hover:dark:border-orange-600 transition duration-500 shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)] flex flex-col ' key={item.id}>
                     <div>
                         <img className='w-full object-cover rounded-t-2xl h-[250px]' src={item.image} alt="" />
-                    </div>
+                    </div>                                                                                                                                                                                                                                                                                                                                                                     
                     <div>
                         <h1 className='text-center text-2xl Inter-bold py-2'>{item.title}</h1>
                         <p className='Inter-medium text-sm px-8 text-center py-2'>{item.description}</p>
