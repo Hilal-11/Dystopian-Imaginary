@@ -6,6 +6,7 @@ import logoImg from '../../dystopLogo.png'
 import ForWho from "@/components/ForWho";
 import FAQ from "@/components/FAQ";
 import PremiumAndSignUp from "@/components/PremiumAndSignUp";
+import Footer from "@/components/Footer";
   const descriptionText =
   "Dystopian transforms imagination into stunning visuals. From futuristic cities to surreal landscapes, generate extreme sci-fi images powered by GenAI and enhanced by artists. Whether for storytelling, design, or inspiration, bring impossible worlds to life with limitless creativity.";
 
@@ -129,6 +130,9 @@ export default function IndexPage() {
       </div>
       <div>
         <PremiumAndSignUp />
+      </div>
+      <div>
+        <Footer />
       </div>
     </DefaultLayout>
   );
