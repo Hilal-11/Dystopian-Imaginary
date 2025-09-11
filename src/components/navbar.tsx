@@ -47,7 +47,7 @@ export const Navbar = () => {
       >
         <NavbarItem className="hidden sm:flex">
           <div className="relative flex items-center justify-center Inter-medium mr-3">
-            <input className="outline-none dark:bg-zinc-950 bg-neutral-100 rounded-md px-3 py-[6px] text-sm shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)]" type="text" placeholder="Search imagination" />
+            <input className="outline-none dark:bg-neutral-900 bg-neutral-100 rounded-md px-3 py-[6px] text-sm shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)]" type="text" placeholder="Search imagination" />
             <span className="absolute right-2 text-neutral-500"><IoSearchSharp /></span>
           </div>
 
