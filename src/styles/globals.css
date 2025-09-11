@@ -1,4 +1,9 @@
 @import "tailwindcss";
+
+/* @plugin "tailwindcss-animate";
+@import "tw-animate-css"; */
+
+@custom-variant dark (&:is(.dark *));
 .Inter-regular {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
@@ -34,8 +39,6 @@
 /* Main Buttons */
 /* Main Buttons */
 
-
-
 .flex-btn {
   display: flex;
   align-items: center;
@@ -49,7 +52,7 @@
   position: relative;
   border-radius: 12px;
   transition: all 0.3s ease;
-  
+
 }
 .outer-cont-btn::before {
   content: "";
@@ -69,5 +72,4 @@
   transform: translateY(1px);
 }
 
-
-@config "../../tailwind.config.js"
+@config "../../tailwind.config.js";
