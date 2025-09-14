@@ -27,15 +27,15 @@ export const siteConfig = {
 
     },
     {
-      label: "About Dystopian",
-      href: "/about",
-      icon: BsMicrosoftTeams
-
-    },
-    {
       label: "Blogs",
       href: "/blogs",
       icon: MdOutlineReviews
+      
+    },
+    {
+      label: "Contect",
+      href: "/contect",
+      icon: BsMicrosoftTeams
 
     },
   ],
@@ -58,15 +58,14 @@ export const siteConfig = {
 
     },
     {
-      label: "About Dystopian",
-      href: "/about",
-      icon: BsMicrosoftTeams
-
-    },
-    {
       label: "Blogs",
       href: "/blogs",
       icon: MdOutlineReviews
+
+    },    {
+      label: "Contect",
+      href: "/contect",
+      icon: BsMicrosoftTeams
 
     },
   ],
