@@ -16,6 +16,9 @@ function App() {
       <Route element={<BlogPage />} path="/blogs" />
       <Route element={<AboutPage />} path="/about" />
       <Route element={<GenerateImages />} path="/generate" />
+      <Route element={<GenerateImages />} path="/generate" />
+      <Route element={<GenerateImages />} path="/generate" />
+      
     </Routes>
   );
 }
